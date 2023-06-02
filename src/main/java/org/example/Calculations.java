@@ -2,7 +2,6 @@ package org.example;
 
 import java.util.Scanner;
 
-
 public class Calculations {
     public static void main(String[] args) {
         // Create Scanner to read User Input
@@ -34,5 +33,25 @@ public class Calculations {
         System.out.println(num1 + " * " + num2 + " = " + multiplication);
         System.out.println(num1 + " / " + num2 + " = " + division);
         System.out.println(num1 + " % " + num2 + " = " + modulus);
+    }
+
+    public int add(int num1, int num2) {
+        return num1 + num2;
+    }
+
+    public int sub(int num1, int num2) {
+        return num1 - num2;
+    }
+
+    public int multiply(int num1, int num2) {
+        return num1 * num2;
+    }
+
+    public double divide(int num1, int num2) {
+        return num1 / num2;
+    }
+
+    public double modulus(int num1, int num2) {
+        return num1 % num2;
     }
 }
